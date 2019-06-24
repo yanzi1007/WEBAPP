@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>React App</title>
+  </head>
+  <body>
+    <!-- 把rem计算放到body的头部，目的是为了保证css导入后才执行，不放在head的尾部的原因是：若放在head尾部，基于webpack
+    编译会把编译好的的css放在head的尾部，这样css在rem计算之后 -->
+    <script></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+  </body>
+</html>

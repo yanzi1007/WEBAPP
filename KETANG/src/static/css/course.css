@@ -1,0 +1,93 @@
+.courseBox {
+  /*轮播图和列表*/
+  /*详情区域*/
+}
+.courseBox .listBox .slick-slide {
+  height: 3rem;
+  overflow: hidden;
+}
+.courseBox .listBox .slick-slide img {
+  display: block;
+  width: 100%;
+  height: 3rem;
+}
+.courseBox .listBox .slick-active button {
+  background: #9D0800 !important;
+}
+.courseBox .listBox .courseList {
+  padding: 0.2rem;
+}
+.courseBox .listBox .courseList h2 {
+  line-height: 0.7rem;
+}
+.courseBox .listBox .courseList h2 i {
+  margin-right: 0.1rem;
+  font-size: 0.4rem;
+}
+.courseBox .listBox .courseList ul li {
+  box-sizing: border-box;
+  margin-bottom: 0.2rem;
+  padding: 0.1rem;
+  border: 0.02rem solid #DDD;
+}
+.courseBox .listBox .courseList ul li a {
+  display: block;
+  color: #000;
+}
+.courseBox .listBox .courseList ul li a h3 {
+  line-height: 0.6rem;
+  font-size: 0.34rem;
+}
+.courseBox .listBox .courseList ul li a .content {
+  display: flex;
+}
+.courseBox .listBox .courseList ul li a .content .pic {
+  width: 2rem;
+  height: 1.4rem;
+  background: #EEE;
+}
+.courseBox .listBox .courseList ul li a .content .pic img {
+  width: 100%;
+  height: 100%;
+}
+.courseBox .listBox .courseList ul li a .content .desc {
+  flex: 1;
+  font-size: 0.32rem;
+  padding-left: 0.2rem;
+  overflow: hidden;
+}
+.courseBox .listBox .courseList ul li a .content .desc p:first-child {
+  color: #666;
+  height: 0.8rem;
+  line-height: 0.4rem;
+  overflow: hidden;
+}
+.courseBox .listBox .courseList ul li a .content .desc p:last-child {
+  color: #999;
+}
+.courseBox .baseInfo {
+  padding: 0 0.2rem;
+}
+.courseBox .baseInfo video {
+  display: block;
+  width: 100%;
+  min-height: 3rem;
+  background: #000;
+}
+.courseBox .baseInfo .content {
+  margin-top: 0.2rem;
+}
+.courseBox .baseInfo .content h3 {
+  line-height: 0.6rem;
+}
+.courseBox .baseInfo .content p {
+  line-height: 0.4rem;
+}
+.courseBox .baseInfo .content span {
+  line-height: 0.6rem;
+  color: #9D0800;
+}
+.courseBox .baseInfo .content button {
+  display: block;
+  margin-top: 0.2rem;
+}

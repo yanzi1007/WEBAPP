@@ -1,0 +1,38 @@
+.panel {
+    margin: 20px auto;
+    width: 500px; 
+}
+.panel .panel-title {
+    margin-bottom: 10px;
+}
+.panel .panel-title .count {
+    color: #9d0800;
+    font-weight: bold;
+}
+.list-group-item {
+    position: relative;
+}
+.list-group-item input {
+    vertical-align: top;
+}
+.list-group-item span {
+    margin-left: 10px;
+    vertical-align: top;
+    &.complete {
+        text-decoration: line-through;
+    }
+}
+.list-group-item a {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.list-group-item a:hover{
+        display: block;
+}

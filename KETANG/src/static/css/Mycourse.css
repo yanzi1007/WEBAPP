@@ -1,0 +1,54 @@
+.MycourseBox {
+  padding: 0.2rem;
+}
+.MycourseBox .courseItem {
+  margin-top: 0.4rem;
+}
+.MycourseBox .courseItem li {
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 0.2rem;
+  padding: 0.1rem;
+  border-bottom: 0.02rem solid #EEE;
+}
+.MycourseBox .courseItem li a {
+  display: block;
+  color: #000;
+}
+.MycourseBox .courseItem li a h3 {
+  margin-left: 0.4rem;
+  line-height: 0.6rem;
+  font-size: 0.34rem;
+}
+.MycourseBox .courseItem li a .content {
+  display: flex;
+}
+.MycourseBox .courseItem li a .content .pic {
+  width: 2rem;
+  height: 1.4rem;
+  background: #EEE;
+}
+.MycourseBox .courseItem li a .content .pic img {
+  width: 100%;
+  height: 100%;
+}
+.MycourseBox .courseItem li a .content .desc {
+  flex: 1;
+  font-size: 0.32rem;
+  padding-left: 0.2rem;
+  overflow: hidden;
+}
+.MycourseBox .courseItem li a .content .desc p:first-child {
+  color: #666;
+  height: 0.8rem;
+  line-height: 0.4rem;
+  overflow: hidden;
+}
+.MycourseBox .courseItem li a .content .desc p:last-child {
+  color: #999;
+}
+.MycourseBox .courseItem li input[type='checkbox'] {
+  position: absolute;
+  left: 0.1rem;
+  top: 0.29rem;
+}
